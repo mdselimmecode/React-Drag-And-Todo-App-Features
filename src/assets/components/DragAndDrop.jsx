@@ -34,7 +34,7 @@ const DragAndDrop = ({ initialState }) => {
     }
 
     return (
-        <div className="container mx-auto grid grid-cols-3 gap-20">
+        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-20">
             {
                 Object.keys(data).map((container, index) => {
                     return <div key={index}
